@@ -1,0 +1,31 @@
+{
+  "name": "cypress-automation-framework",
+  "version": "1.0.0",
+  "description": "Cypress Cucumber Automation Framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shitesh123/Login-Flow.git"
+  },
+  "author": "Shitesh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shitesh123/Login-Flow/issues"
+  },
+  "homepage": "https://github.com/shitesh123/Login-Flow#readme",
+  "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^20.1.1",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.2"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^8.4.1",
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.6.0-dev.20240730"
+  },
+  "cypress-cucumber-preprocessor": {
+    "stepDefinitions": "cypress/support/step_definitions/**/*.js"
+  }
+}
